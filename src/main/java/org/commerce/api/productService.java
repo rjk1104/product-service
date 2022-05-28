@@ -1,12 +1,11 @@
-package org.commerce.api.main;
+package org.commerce.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class productService {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         SpringApplication.run(productService.class,args);
     }
 }
-
